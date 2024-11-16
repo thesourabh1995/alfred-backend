@@ -1,0 +1,24 @@
+Add or Update comment payload structure  :
+payload = json.dumps( {
+  "body": {
+    "content": [
+      {
+        "content": [
+          {
+            "text": #COMMENT
+            "type": "text"
+          }
+        ],
+        "type": "paragraph"
+      }
+    ],
+    "type": "doc",
+    "version": 1
+  },
+  "visibility": {
+    "identifier": "Administrator",
+    "type": "role",
+  }
+} )
+
+
